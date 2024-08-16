@@ -1,0 +1,49 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Flask
+instance/
+.env
+*.db
+
+# Celery
+celerybeat*
+celerybeat-schedule
+*.pid
+
+
+# Docker
+*.dockerignore
+
+# Kubernetes
+*.yaml
+*.yml
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Log files
+*.log
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Misc
+*.DS_Store
+*.log
+*.swp
